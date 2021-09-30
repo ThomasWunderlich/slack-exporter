@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Rob/SI Slack Channel Exporter",
+  "version": "1.0.1",
+  "description": "Quickly export entire Slack channel and DM history with the click of a button.",
+  "browser_action": {
+    "default_title": "Export Slack",
+    "default_icon": {
+      "32": "icons/si-slack-icon-32.png",
+      "128": "icons/si-slack-icon-128.png"
+    }
+  },
+  "permissions": [
+    "https://*.slack.com/",
+    "tabs",
+    "downloads"
+  ],
+  "background": {
+    "scripts": [
+      "scripts/lib/slack_message.js",
+      "scripts/lib/slack_channel.js",
+      "scripts/background.js"
+    ],
+    "persistent": false
+  }
+}

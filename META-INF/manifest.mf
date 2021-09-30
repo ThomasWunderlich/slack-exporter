@@ -1,0 +1,42 @@
+Manifest-Version: 1.0
+
+Name: manifest.json
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: KAXm5P1gKcMwKdwJeYhUhdOUeLY=
+SHA256-Digest: Lv/tUfO7FFSJOgXEPcis9+smJxikqG6e3jQVlsV9wTs=
+
+Name: icons/si-slack-icon-128.png
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: Pp38lBA8Q1IrB3JnYCoCGvS5SNI=
+SHA256-Digest: hCZvizH3wZgRADmm7nMaG7GuPeRDHHtV328/ZPW+kEg=
+
+Name: icons/si-slack-icon-32.png
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: wkkex/W/IBTPXEXc/uV3R6QPNg4=
+SHA256-Digest: JvP4m4mJtsVLJ22wqRE9O8RLEhNyjluLIpFpfz67Ofw=
+
+Name: scripts/background.js
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: Z9FoxnsZJtyEL09qRBcJ97W0mes=
+SHA256-Digest: Kcz8EGJ9WKh7fpS8NubIZqGk+R4ZIzZZqF9OQ2513hA=
+
+Name: scripts/lib/slack_channel.js
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: qQ+JXAsOV8oOQFfEK+n7+cZp9BM=
+SHA256-Digest: NS34f6L7TC908uYDTZ0dj9hS2PjtfXQL428/4zPrmu8=
+
+Name: scripts/lib/slack_message.js
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: iAubQvfMC1WJsIBGW/Cf9ElFpOs=
+SHA256-Digest: 9ZHzRhm0P1O5AgLdDzep4H8PG7wb9Qz+YtwEJ8LWVZc=
+
+Name: META-INF/cose.manifest
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: ZnmLOYQZGdfDn4arkNopKUgNuQI=
+SHA256-Digest: SdgjY/d+31IpSbLAdGTNG3B+sjp+rpKUpVGhnWUgVGs=
+
+Name: META-INF/cose.sig
+Digest-Algorithms: SHA1 SHA256
+SHA1-Digest: cfMW8xMCsSDierjdrCKsq+mEaf4=
+SHA256-Digest: TLjO5eO1/0gCndVZ0mX0SDnfqDZnVhimStJapqfs3eg=
+
