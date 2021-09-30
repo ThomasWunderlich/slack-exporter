@@ -28,6 +28,9 @@ class SlackChannel {
 		form_data.append('no_self', 'true');
 		form_data.append('count', '1000');
 		form_data.append('channel', this.channel);
+
+		console.log('token used with api: ' + this.token);
+		console.log('channel used with api: ' + this.channel);
 		
 		let url = `https://app.slack.com/api/conversations.view`
 		let options = {

@@ -53,6 +53,9 @@ chrome.browserAction.onClicked.addListener(function(tab) {
 			enterprise_token = token;
 			enterprise_workspace = workspace;
 		}
+
+                console.log('token: ' + token);
+                console.log('enterprise_token: ' + enterprise_token);
 		
 		data = {
 			'workspace': workspace,
